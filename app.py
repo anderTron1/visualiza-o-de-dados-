@@ -92,7 +92,7 @@ def atualiza_dash(fornecedores):
     return fig_forn_por_qtd, fig_forn_por_vlr, fig_nome_por_qtd
 
 if __name__ == "__main__":
-    app.run(debug=False, port=8050, host="localhost")
+    app.run(debug=True)
 
 
 
